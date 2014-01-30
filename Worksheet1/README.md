@@ -33,54 +33,58 @@ the necessary properties to the class. Choose them yourself. You could come back
 later so start with simple fields. (There is a wizard for boilerplate code insertion on the editor right
 mouse click menu in the editor pane).
 
-Step 2
-Create a JSF page, bound to the backing bean to collect the data. (New  JavaSrver Faces
- JSF Page). Add components (use the editor’s completion facilities) . Use the EL to connect to
+
+## Step 2
+
+Create a JSF page, bound to the backing bean to collect the data. (New JavaSrver Faces
+JSF Page). Add components (use the editor's completion facilities) . Use the EL to connect to
 the managed bean (the “model”).
 
-Step 3
+
+## Step 3
+
 Create a JSF page to display the details. Demonstrate that the data are kept for the session. This will
 probably involve a simple menu page to access the different page. Use implicit navigation for now.
-
-1
 
 New installations of NetBeans may take a long time to activate this feature, but will be faster on subsequent
 runs.
 
-Step 5
+
+## Step 5
+
 Implement suitable validation for each field. Standard converters will suffice.
 
-Step 6
+
+## Step 6
+
 Create an application scoped bean to count the number of views that have been displayed. Invoke
 the increment function from the view facelet and display the current total in that view as well.
 
-Step 7
+
+## Step 7
+
 You might like to employ the templating mechanism to generate a standard web page with, say, a
 banner, a left hand menu including the edit and view options, and a content area. Much boiler plate
-for a range of standard layouts is available in the New  JavaServer Faces  Facelets
+for a range of standard layouts is available in the New JavaServer Faces Facelets
 Template wizard.
 
-Step 8
-View the Domain Admin Console (Services Tab  Servers  Glassfish 4.0 
+
+## Step 8
+
+View the Domain Admin Console (Services Tab Servers Glassfish 4.0
 right click). Investigate administration of your local server. Look for your application.
 
-Step 9
+
+## Step 9
+
 Swap server URLs with somebody else (or start more than one browser on your machine) and
 demonstrate that the session and application scoped beans are working.
 You can use the ipconfig command to find the hostname and primary dns suffix of the machine you
 are running your server on. Alternatively, you can just take the numeric IP address. Others could
 then access your server to demonstrate your session and application beans.
 
-References
-
 
-
+## References
 
-The JSF tag libraries are documented at
-http://docs.oracle.com/cd/E17802_01/j2ee/javaee/javaserverfaces/2.0/docs/pdldocs/facele
-ts/index.html
-The JavEE documentation starts at
-http://docs.oracle.com/javaee/
-which shows outlines for the templating.
-
-
+* The JSF tag libraries are documented at http://docs.oracle.com/cd/E17802_01/j2ee/javaee/javaserverfaces/2.0/docs/pdldocs/facelets/index.html
+* The JavEE documentation starts at http://docs.oracle.com/javaee/ which shows outlines for the templating.
