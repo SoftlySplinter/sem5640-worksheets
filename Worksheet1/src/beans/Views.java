@@ -13,14 +13,11 @@ public class Views implements Serializable {
 	public Views() {}
 	
 	public int getCount() {
-		return this.count;
+		return ++this.count;
 	}
 	
 	public void setCount(int count) {
 		this.count = count;
 	}
 	
-	public void incramentCount() {
-		this.count++;
-	}
 }

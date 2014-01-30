@@ -10,6 +10,7 @@ import javax.faces.context.FacesContext;
 import javax.inject.Named;
 
 import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.Email;
 
 @Named
 @SessionScoped
@@ -17,8 +18,10 @@ public class Person implements Serializable {
 	private String name;
 	private String address;
 	
-	@Length(min=10, max=15)
+	@Length(min=5, max=20)
 	private String phone;
+	
+	@Email
 	private String email;
 
 	/**
