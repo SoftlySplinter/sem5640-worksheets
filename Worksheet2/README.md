@@ -125,6 +125,8 @@ Investigate your implementation:
 
 Keep this code and have it accessible for the Worksheet 3 session.
 
+---
+
 <a name="foot1"></a><sup>1</sup> If you have an account on another RDBMS 
 instance and the NetBeans has drivers for it, you can experiment if you wish.
 
