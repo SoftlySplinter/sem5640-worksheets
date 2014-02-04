@@ -1,3 +1,6 @@
 RemoteSystemsTempFiles
 .metadata
 *.pdf
+/Worksheet2/nbproject/private/
+/Worksheet2/build/
+/Worksheet2/dist/
