@@ -1,5 +1,0 @@
-c:\users\softly\documents\visual studio 2012\Projects\Worksheet 2\Worksheet 2\bin\Worksheet 2.dll
-c:\users\softly\documents\visual studio 2012\Projects\Worksheet 2\Worksheet 2\bin\Worksheet 2.pdb
-c:\users\softly\documents\visual studio 2012\Projects\Worksheet 2\Worksheet 2\obj\Debug\Worksheet 2.csprojResolveAssemblyReference.cache
-c:\users\softly\documents\visual studio 2012\Projects\Worksheet 2\Worksheet 2\obj\Debug\Worksheet 2.dll
-c:\users\softly\documents\visual studio 2012\Projects\Worksheet 2\Worksheet 2\obj\Debug\Worksheet 2.pdb

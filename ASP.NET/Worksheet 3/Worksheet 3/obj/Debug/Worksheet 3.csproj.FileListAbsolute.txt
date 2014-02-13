@@ -1,5 +1,0 @@
-c:\users\softly\documents\visual studio 2012\Projects\Worksheet 3\Worksheet 3\bin\Worksheet 3.dll
-c:\users\softly\documents\visual studio 2012\Projects\Worksheet 3\Worksheet 3\bin\Worksheet 3.pdb
-c:\users\softly\documents\visual studio 2012\Projects\Worksheet 3\Worksheet 3\obj\Debug\Worksheet 3.csprojResolveAssemblyReference.cache
-c:\users\softly\documents\visual studio 2012\Projects\Worksheet 3\Worksheet 3\obj\Debug\Worksheet 3.dll
-c:\users\softly\documents\visual studio 2012\Projects\Worksheet 3\Worksheet 3\obj\Debug\Worksheet 3.pdb
