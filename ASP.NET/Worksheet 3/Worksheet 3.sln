@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite", "Worksheet 3\WebSite.csproj", "{91507F38-0CCE-407D-AC19-2E43F8AF9C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "ClassLibrary1\BusinessLayer.csproj", "{3D7C671E-B75C-485E-8F47-0305BAE93564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91507F38-0CCE-407D-AC19-2E43F8AF9C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91507F38-0CCE-407D-AC19-2E43F8AF9C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91507F38-0CCE-407D-AC19-2E43F8AF9C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91507F38-0CCE-407D-AC19-2E43F8AF9C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7C671E-B75C-485E-8F47-0305BAE93564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7C671E-B75C-485E-8F47-0305BAE93564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7C671E-B75C-485E-8F47-0305BAE93564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7C671E-B75C-485E-8F47-0305BAE93564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
