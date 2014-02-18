@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worksheet 4", "Worksheet 4\Worksheet 4.csproj", "{E3B7ECC3-DF1E-4BD4-8424-164C7E74741E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFTest", "WCFTest\WCFTest.csproj", "{AF122DA6-48A3-444F-8DB8-0F9F0AF1464D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3B7ECC3-DF1E-4BD4-8424-164C7E74741E} = {E3B7ECC3-DF1E-4BD4-8424-164C7E74741E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3B7ECC3-DF1E-4BD4-8424-164C7E74741E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B7ECC3-DF1E-4BD4-8424-164C7E74741E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B7ECC3-DF1E-4BD4-8424-164C7E74741E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B7ECC3-DF1E-4BD4-8424-164C7E74741E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF122DA6-48A3-444F-8DB8-0F9F0AF1464D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF122DA6-48A3-444F-8DB8-0F9F0AF1464D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF122DA6-48A3-444F-8DB8-0F9F0AF1464D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF122DA6-48A3-444F-8DB8-0F9F0AF1464D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

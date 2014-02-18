@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://users.aber.ac.uk/m5640/paymentprocessor" elementFormDefault="qualified" targetNamespace="http://users.aber.ac.uk/m5640/paymentprocessor" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ProcessPayment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="paymentDetails" nillable="true" type="tns:PaymentDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="PaymentDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="tns:Address" />
+      <xs:element minOccurs="0" name="CreditCardNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PaymentDetails" nillable="true" type="tns:PaymentDetails" />
+  <xs:complexType name="Address">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HouseName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Street1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Street2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Address" nillable="true" type="tns:Address" />
+  <xs:element name="ProcessPaymentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcessPaymentResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
